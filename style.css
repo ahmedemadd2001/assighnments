@@ -112,3 +112,58 @@
     text-align: center;
     color: white;
 }
+
+hr,
+br {
+    padding: 5px;
+    background-color: black;
+}
+
+.parent3 {
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+
+}
+
+.parent3 div {
+    width: calc(100% / 4);
+    padding: 20px;
+    background-color: #607D8B;
+    text-align: center;
+    color: white;
+    align-content: center;
+}
+
+.one1 {
+    order: 6;
+    height: 10px;
+    align-self: end;
+}
+
+.two2 {
+    order: 5;
+}
+
+.three3 {
+    order: 2;
+    height: 10px;
+}
+
+.four4 {
+    order: 3;
+}
+
+.five5 {
+    order: 4;
+}
+
+.order6 {
+    order: 1;
+}
