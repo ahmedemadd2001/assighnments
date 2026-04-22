@@ -73,5 +73,22 @@
     width: 300px;
     color: var(--main-color, red);
     border: solid 5px var(--main-color, black);
+}
 
+.elzero {
+    width: 400px;
+    height: 400px;
+    background-color: #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: orangered;
+    border-radius: 50%;
+    box-shadow: 21px 0px 0px 0px #E8542B, -20px -1px 0px 0px #56AAF5
 }
