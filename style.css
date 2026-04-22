@@ -184,6 +184,8 @@ br {
 .parent4 div {
     padding: 20px;
     background-color: #489689;
+    text-align: center;
+    color: white;
 }
 
 .onen {
@@ -199,4 +201,44 @@ br {
 .threen {
     align-self: end;
     height: 58px;
+}
+
+.parent5 {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.parent5 div {
+    padding: 20px;
+    background-color: #489689;
+    text-align: center;
+    color: white;
+    width: 100px;
+    /* width: calc(90% / 3); */
+    height: 100px;
+}
+
+.ones {
+    align-self: flex-end;
+    order: ;
+}
+
+.twos {
+    order: ;
+}
+
+.threes {
+    order: ;
+    align-self: flex-end;
+}
+
+.fours {
+    order: ;
 }
