@@ -92,3 +92,23 @@
     border-radius: 50%;
     box-shadow: 21px 0px 0px 0px #E8542B, -20px -1px 0px 0px #56AAF5
 }
+
+.parent2 {
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.parent2 div {
+    width: calc(100% / 4);
+    padding: 15px;
+    background-color: #E74033;
+    text-align: center;
+    color: white;
+}
