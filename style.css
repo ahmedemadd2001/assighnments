@@ -147,9 +147,7 @@ br {
     align-self: end;
 }
 
-.two2 {
-    order: 5;
-}
+
 
 .three3 {
     order: 2;
@@ -227,18 +225,13 @@ br {
 
 .ones {
     align-self: flex-end;
-    order: ;
 }
 
-.twos {
-    order: ;
-}
+
+.twos {}
 
 .threes {
-    order: ;
     align-self: flex-end;
 }
 
-.fours {
-    order: ;
-}
+.fours {}
